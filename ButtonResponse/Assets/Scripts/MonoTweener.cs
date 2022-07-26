@@ -5,10 +5,7 @@ using DG.Tweening;
 
 public abstract class MonoTweener : MonoBehaviour
 {
-
-
-    [SerializeField,TextArea] string description;
-    
+    [SerializeField,TextArea] string description;   
 
     [SerializeField] protected bool completeIfKilled;
     [SerializeField] protected bool randomDuration;
