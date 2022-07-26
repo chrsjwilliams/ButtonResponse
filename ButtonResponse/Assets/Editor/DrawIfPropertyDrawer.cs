@@ -20,6 +20,7 @@ public class DrawIfPropertyDrawer : PropertyDrawer
 
     public override void OnGUI(Rect position, SerializedProperty property, GUIContent label)
     {
+
         // Set the global variables.
         drawIf = attribute as DrawIfAttribute;
         comparedField = property.serializedObject.FindProperty(drawIf.comparedPropertyName);
