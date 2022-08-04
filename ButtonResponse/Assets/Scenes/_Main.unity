@@ -569,6 +569,10 @@ PrefabInstance:
       value: 0.1
       objectReference: {fileID: 0}
     - target: {fileID: 2005655161027593775, guid: f2bdb3879dc7e4273b75d41497f40899, type: 3}
+      propertyPath: randomDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2005655161027593775, guid: f2bdb3879dc7e4273b75d41497f40899, type: 3}
       propertyPath: transformToUse
       value: 
       objectReference: {fileID: 1943875777}
