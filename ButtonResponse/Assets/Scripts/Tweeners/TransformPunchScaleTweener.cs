@@ -12,6 +12,7 @@ public class TransformPunchScaleTweener : TransformTweener
     protected override Tweener LocalPlay()
     {
         var targetScale = target.localScale * scalePercent;
+
         var tween = target.DOPunchScale(targetScale, duration, vibrato, elasticity);
         if (resetOnComplete)
         {
