@@ -11,9 +11,9 @@
  *      Buttons, Tweening, CanvasGroups, Delegates
  *      
  *      FOR CLASS 09/21:
- *      - Use DoTween to change a gameobjects color, size, and or position
- *      - Add tweens for text
- *      - Add tweens for canvas group
+ *      - Use DoTween to change a gameobjects color, size, and or position +
+ *      - Add tweens for text +
+ *      - Add tweens for canvas group + add canvasgroup tweener to repo
  *      - Add tweens for sprite renderer color
  *      - Create a delegate to communicate when a button was pressed
  *      

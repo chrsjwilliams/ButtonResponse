@@ -3,9 +3,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class EventFireer : MonoBehaviour
+public class Timer : MonoBehaviour
 {
-    public static event Action<string> ClassRegistrationIsOpen;
+
+    public static event Action TimeIsOver;
+
+    float time;
 
     // Start is called before the first frame update
     void Start()
@@ -16,9 +19,11 @@ public class EventFireer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Space))
+        // time is going down
+        if(time <= 0)
         {
-            ClassRegistrationIsOpen.Invoke("Mobile Game Studio");
+            TimeIsOver?.Invoke();
         }
+
     }
 }
